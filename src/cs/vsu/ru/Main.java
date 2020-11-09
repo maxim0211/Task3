@@ -226,27 +226,27 @@ public class Main {
         String[][] matrixResult;
         matrixResult = new String[6][6];
 
-        matrixResult[0][0]= "Table res ";
+         matrixResult[0][0]= "Table res ";
         matrixResult[0][1]= "Array";
         matrixResult[0][2]= "Linked";
 
-        matrixResult[1][0]="Add   (40k)";
-        matrixResult[1][1]=Long.toString(addingTestToArrayList(40000));
-        matrixResult[1][2]=Long.toString(addingTestToArrayList(40000));
+        matrixResult[1][0]="Add  (400k)";
+        matrixResult[1][1]=Long.toString(addingTestToArrayList(400000));
+        matrixResult[1][2]=Long.toString(addingTestToArrayList(400000));
 
-        matrixResult[3][0]="Get   (40k)";
+        matrixResult[3][0]="Get    (40k)";
         matrixResult[3][1]=Long.toString(getTestToArrayList(40000));
         matrixResult[3][2]=Long.toString(getTestToLinkedList(40000));
 
-        matrixResult[2][0]="Rem   (3kk)";
-        matrixResult[2][1]=Long.toString(removeTestToArrayList(400000));
-        matrixResult[2][2]=Long.toString(removeTestToLinkedList(400000));
+        matrixResult[2][0]="Rem   (4kk)";
+        matrixResult[2][1]=Long.toString(removeTestToArrayList(4000000));
+        matrixResult[2][2]=Long.toString(removeTestToLinkedList(4000000));
 
-        matrixResult[4][0]="Set   (40k)";
+        matrixResult[4][0]="Set    (40k)";
         matrixResult[4][1]=Long.toString(setTestToArrayList(40000));
         matrixResult[4][2]=Long.toString(setTestToLinkedList(40000));
 
-        matrixResult[5][0]="Index (30k)";
+        matrixResult[5][0]="Index   (3k)";
         matrixResult[5][1]=Long.toString(indexSearchTestToArrayList(3000));
         matrixResult[5][2]=Long.toString(indexSearchTestToLinkedList(3000));
 
